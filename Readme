@@ -1,0 +1,28 @@
+Introdução
+O projeto de Gestão de Funcionários é um sistema de banco de dados que permite o gerenciamento eficiente de funcionários, departamentos e salários em uma empresa. O sistema possibilita a criação, leitura, atualização e exclusão de registros, garantindo a integridade e a organização dos dados relacionados aos funcionários e suas respectivas áreas de atuação.
+
+# Sistema de Gestão de Funcionários
+
+## Descrição
+
+Este projeto é um sistema de banco de dados para gerenciar funcionários, departamentos e salários em uma empresa. O sistema permite:
+
+- Registro e atualização de informações dos funcionários.
+- Gestão dos departamentos.
+- Controle dos salários históricos.
+
+## Estrutura do Banco de Dados
+
+O banco de dados contém três tabelas principais:
+
+1. **Departamentos**: Armazena informações sobre os departamentos da empresa.
+2. **Funcionarios**: Contém detalhes dos funcionários, incluindo o departamento ao qual pertencem.
+3. **Salarios**: Registra os salários históricos dos funcionários.
+
+## Comandos SQL
+
+### 1. Criar o Banco de Dados
+
+```sql
+CREATE DATABASE GestaoFuncionarios;
+USE GestaoFuncionarios;
