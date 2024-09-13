@@ -1,0 +1,46 @@
+
+### .gitignore
+
+Para garantir que arquivos indesejados não sejam incluídos no repositório Git, você pode usar o seguinte arquivo `.gitignore`:
+
+```gitignore
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários
+*.tmp
+*.swp
+
+# Ignorar diretórios de build
+build/
+dist/
+
+# Ignorar arquivos de IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar arquivos de banco de dados locais (caso existam)
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignorar arquivos de backup
+*.bak
+*.old
+
+# Ignorar arquivos de configuração do sistema
+*.config
+*.env
+
+# Ignorar outros arquivos específicos
+*.sql.gz
+*.dump
